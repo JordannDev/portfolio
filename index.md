@@ -2,7 +2,12 @@
 layout: default
 ---
 
-**Hi**, I'm Jordan. Welcome to my portfolio. I'm a self taught programmer, and SysAdmin (*kinda*).
+**Hi**, I'm Jordan. Welcome to my portfolio. I'm a self taught programmer with experience with:
+
+- Laravel
+- Docker
+- Kubernetes
+- *more below*
 
 #### Contact
 
