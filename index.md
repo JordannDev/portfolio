@@ -2,17 +2,26 @@
 layout: default
 ---
 
-Text can be bold, _italic_, ~~strikethrough~~ or `keyword`.
+**Hi**, I'm Jordan. Welcome to my portfolio. I'm a self taught programmer, and SysAdmin (*kinda*).
 
-[Link to another page](./another-page.html).
+#### Contact
 
-There should be whitespace between paragraphs.
+If you want to get in contact with me, send me an email @ admin@jordie.ml
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+# Experience
 
-# Header 1
+## Progamming
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+| Language     | Experience (years)|
+|:-------------|:------------------|
+| Java         | 6+                |
+| PHP          | 2+                |
+| .NET         | 3+                |
+| HTML & CSS   | 2+                |
+| Lua          | -1                |
+| C++          | 1                 |
+| Go           | -1                |
+| JavaScipt    | 1+                |
 
 ## Header 2
 
