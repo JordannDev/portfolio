@@ -8,9 +8,8 @@ layout: default
 
 If you want to get in contact with me, send me an email @ admin@jordie.ml
 
-# Experience
 
-## Progamming
+# Progamming
 
 | Language     | Experience (years)|
 |:-------------|:------------------|
@@ -23,110 +22,40 @@ If you want to get in contact with me, send me an email @ admin@jordie.ml
 | Go           | -1                |
 | JavaScipt    | 1+                |
 
-## Header 2
+# SysAdmin
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+I have *some* SysAdmin expeience. Most of my SysAdmin expeience comes from personal projects. 
 
-### Header 3
+## VATSIM Canada (Organization, *SysAdmin+Development*)
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+I joined VATSIM Canada (*VATCAN*) as a volunteer in late 2019, and am still currently working with them. My current role in VATCAN is to develop and maintain our infrastructure, and code base. Aswell as take on leadership responsibilities when required.
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+### Programming
 
-#### Header 4
+*VATCAN*s codebase is almost entirely [Laravel](https://laravel.com) (a PHP framework). Our TeamSpeak & Discord Bots are both written in Java, and we have another project in the works which utilizies C#, and React (JavaScript Framework).
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+I wrote *VATCAN* a new website from scratch, starting in early 2020, and finishing by the first quarter of 2021. In November [Kolby Dunning](https://kolbyd.ca) joined to assist aswell. During November 2020, and the beginning of April of 2021, we collectively wrote *~50,000* lines of code. 
 
-##### Header 5
+Our main website is a large Laravel project, which has brought on many insights on how we should optimize our website to increase performance, and make Laravel run a lot cleaner. Naturally, this also brought on a lot of new methods for keeping the code base clean, and maintainable. We both learned a lot about how to make sure we future-proof the codebase for future developers.
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+### Leadership Role
 
-###### Header 6
+My role primarily is development, but I am also responsible for managing our Web Team, aswell as assisting the other Webmasters within our organization when required. I currently manage a small Web Team, those responsibilities include:
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
+1. Assigning tasks / bugs to developers to fix
+2. Hosting development meetings when required
+3. Ensuring high level goals are met
+4. Assigning priority to specific tasks to meet organization goals
 
 
-### Definition lists can be used with HTML syntax.
+### Kubernetes & Docker
 
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
+*VATCAN*s applications are used in Docker containers, we have also recently deployed a Kubernetes cluster.
 
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
+## VATSIM Sync (Personal, *Java*)
 
-```
-The final element.
-```
+VATSIM Sync is a Discord bot that uses VATSIM's OAuth to connect Discord accounts, and VATSIM profiles. The Discord Bot then synchronizes ratings (rank) based on roles that are setup by the Discord Servers administrators. This bot has a user base of *~2500*. This bot was written in Java, and utilizing multi-threading, and caching to avoid rate-limiting, and efficiently assign roles.
+
+## VATSIM Notify (Personal, *Java*, Outdated)
+
+VATSIM Notify is a Discord bot that uses VATSIM's legacy datafeed to alert members in Discord server when a user logs into the network. It simply parses the datafeed, caches it, waits for the next update, and compares the data. Based on the comparison it will alert accordingly.
