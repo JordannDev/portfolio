@@ -24,7 +24,7 @@ If you want to get in contact with me, send me an email @ admin@jordie.ml
 
 # SysAdmin
 
-I have *some* SysAdmin expeience. Most of my SysAdmin expeience comes from personal projects. 
+I have *some* SysAdmin experience. Most of my SysAdmin expeience comes from personal projects. 
 
 ## VATSIM Canada (Organization, *SysAdmin+Development*)
 
