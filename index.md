@@ -24,12 +24,12 @@ If you want to get in contact with me, send me an email @ admin@jordie.ml
 | HTML & CSS   | 2+                |
 | Lua          | -1                |
 | C++          | 1                 |
-| Go           | -1                |
+| Go           | <1                |
 | JavaScipt    | 1+                |
 
 # SysAdmin
 
-I have *some* SysAdmin experience. Most of my SysAdmin expeience comes from personal projects. 
+I have *some* SysAdmin experience. Most of my SysAdmin experience comes from personal projects. 
 
 ## VATSIM Canada (Organization, *SysAdmin+Development*)
 
